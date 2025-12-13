@@ -16,6 +16,20 @@ body {
     color: transparent;
 }
 
+.logo1 {
+    background: #e80505;
+    background-clip: text;
+    color: transparent;
+}
+
+.logo2 {
+    background: #ff9c1a;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
 .linear-button {
     background: linear-gradient(90deg, #ff9c1a, #ed250a);
     color: transparent;
@@ -113,3 +127,87 @@ body {
     background-color: #ffebd1;
     
 }
+
+.bloc_orange_light {
+    background-color: #ffeed9;
+}
+.bloc_orange_strong {
+    background-color: #ffe3bf;
+}
+.margin-title {
+    margin-right: 4rem ;
+}
+
+@media (max-width: 767px) {
+    .profil {
+        margin-top: 150px; 
+    }
+}
+
+.image-1 {
+    width: 334px;
+    height: 100px;
+}
+
+.image-2 {
+    width: 334px;
+    height: 150px;
+}
+
+.col-gauche > div {
+    margin-bottom: 20px !important; /* blocs collés */
+}
+
+.col-droite > div:not(:last-child) {
+    margin-bottom: 20px; /* spacing normal */
+}
+
+
+/* barre de nav */
+
+
+
+.form-line {
+  border: none;
+  border-bottom: 1px solid #adb5bd; /* gris */
+  border-radius: 0;
+  background-color: transparent !important;
+  padding-left: 0;
+}
+
+.form-line:focus {
+  background-color: transparent !important; /* empêche le fond blanc */
+  box-shadow: none;
+  border-bottom-color: #dee2e6;
+ 
+}
+
+
+.btn-outline-orange {
+  background: transparent;
+  border: 1.5px solid transparent;
+  border-radius: 999px;
+
+  background-image:
+    linear-gradient(transparent, transparent),
+    linear-gradient(90deg, #ff9c1a, #ed250a);
+
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  color: #ff9c1a;
+}
+
+
+.btn-outline-orange:hover {
+  background-color: transparent;  /* reste transparent */
+  color: linear-gradient(90deg,#ff9c1a, #ed250a);
+  border-color:linear-gradient(90deg,#ff9c1a, #ed250a);
+}
+
+.btn-outline-orange:focus {
+  box-shadow: none;
+}
+
+
+

@@ -3,16 +3,16 @@ Portfolio de Eve Lantelme
 
 # gif-de-présentation
 
-[def]: présentation.gif
+ présentation.gif
 
 # maquette figma
 
 https://www.figma.com/design/afGvgvwWdqkj2Rur0jvDL7/Portfolio-Design--Community-?node-id=0-1&p=f&t=P2thM3ICqLNmBZ4t-0
 
-[Capture-1]: captures-écran/Capture-1.png
-[Capture-2]: captures-écran/Capture-2.png
-[Capture-3]: captures-écran/Capture-3.png
-[Capture-4]: captures-écran/Capture-4.png
+ captures-écran/Capture-1.png
+captures-écran/Capture-2.png
+ captures-écran/Capture-3.png
+ captures-écran/Capture-4.png
 
 
 # liste de langages utilisées
